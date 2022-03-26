@@ -30,7 +30,8 @@
     "php": ">=8.0",
     "ext-curl": "*",
     "ext-json": "*",
-    "ext-yaml": "*"
+    "ext-yaml": "*",
+    "ramsey/uuid": ">=4.1"
   },
   "require-dev": {
 
