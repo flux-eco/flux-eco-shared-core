@@ -1,8 +1,8 @@
 <?php
 
-namespace FluxEco\ValueObjectAdapters\Api;
+namespace FluxEco\ValueObject\Adapters\Api;
 
-use FluxEco\ValueObject{Adapters, Core\Ports};
+use FluxEco\ValueObject\{Adapters, Core\Ports};
 
 class ValueObjectApi
 {

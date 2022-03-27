@@ -17,9 +17,9 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-namespace FluxEco\ValueObjectCore\Ports;
+namespace FluxEco\ValueObject\Core\Ports;
 
-use FluxEco\ValueObjectCore\Domain;
+use FluxEco\ValueObject\Core\Domain;
 
 
 class ValueObjectService

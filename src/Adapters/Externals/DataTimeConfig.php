@@ -1,6 +1,6 @@
 <?php
 
-namespace FluxEco\ValueObjectAdapters\Externals;
+namespace FluxEco\ValueObject\Adapters\Externals;
 
 class DataTimeConfig
 {

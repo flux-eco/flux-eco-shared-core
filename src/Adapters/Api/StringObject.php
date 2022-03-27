@@ -1,9 +1,9 @@
 <?php
 
 
-namespace FluxEco\ValueObjectAdapters\Api;
+namespace FluxEco\ValueObject\Adapters\Api;
 
-use FluxEco\ValueObjectCore\Domain;
+use FluxEco\ValueObject\Core\Domain;
 
 class StringObject
 {

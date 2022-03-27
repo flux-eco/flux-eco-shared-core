@@ -1,6 +1,6 @@
 <?php
 
-namespace FluxEco\ValueObjectCore\Domain\Models;
+namespace FluxEco\ValueObject\Core\Domain\Models;
 
 class StringObject
 {
