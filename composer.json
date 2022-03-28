@@ -33,9 +33,6 @@
     "ext-yaml": "*",
     "ramsey/uuid": ">=4.1"
   },
-  "require-dev": {
-
-  },
   "autoload": {
     "psr-4": {
       "FluxEco\\ValueObject\\": [
