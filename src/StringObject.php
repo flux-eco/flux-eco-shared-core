@@ -1,7 +1,7 @@
 <?php
 
 
-namespace FluxEco\ValueObject\Adapters\Api;
+namespace FluxEco\ValueObject;
 
 use FluxEco\ValueObject\Core\Domain;
 
