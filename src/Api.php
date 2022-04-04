@@ -1,10 +1,10 @@
 <?php
 
-namespace FluxEco\ValueObject\Adapters\Api;
+namespace FluxEco\ValueObject;
 
 use FluxEco\ValueObject\{Adapters, Core\Ports};
 
-class ValueObjectApi
+class Api
 {
     private Ports\ValueObjectService $service;
 

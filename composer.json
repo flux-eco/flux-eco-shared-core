@@ -1,7 +1,7 @@
 {
   "name": "flux-eco/value-object",
   "description": "Offers value objects",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "type": "flux-app",
   "keywords": [
     "flux-eco",
@@ -29,9 +29,16 @@
     "ramsey/uuid": ">=4.1"
   },
   "autoload": {
+    "files": [
+      "fn/getCurrentTime.php",
+      "fn/getNewUuid.php"
+    ],
     "psr-4": {
       "FluxEco\\ValueObject\\": [
         "src/"
+      ],
+      "fluxValueObject\\": [
+        "fn/"
       ]
     }
   },
