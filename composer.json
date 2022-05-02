@@ -1,7 +1,7 @@
 {
   "name": "flux-eco/value-object",
   "description": "Offers value objects",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "flux-app",
   "keywords": [
     "flux-eco",
@@ -31,7 +31,9 @@
   "autoload": {
     "files": [
       "fn/getCurrentTime.php",
-      "fn/getNewUuid.php"
+      "fn/getNewUuid.php",
+      "fn/getNewMessage.php",
+      "fn/getMessageFromJson.php"
     ],
     "psr-4": {
       "FluxEco\\ValueObject\\": [
