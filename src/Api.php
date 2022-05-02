@@ -19,6 +19,11 @@ class Api
         return new self($service);
     }
 
+    public function createMessage(string $correlationId, string $messageName, string $payload, array $additionalHeaders = []): Message
+    {
+        return Message::new($correlationId, $messageName, $payload, $additionalHeaders);
+    }
+
 
     public function createUuid(): StringObject
     {
