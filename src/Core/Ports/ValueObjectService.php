@@ -34,6 +34,16 @@ class ValueObjectService
         return new self();
     }
 
+    public function createArrayFromMapping(array $data, array $keyMappingKeyArray): array {
+        $returnArray = [];
+        foreach($data as $key => $value) {
+            if(key_exists($key, $keyMappingKeyArray)) {
+                $returnArray[$keyMappingKeyArray[$key]] = $value;
+            }
+        }
+        return $returnArray;
+    }
+
 
     final public function newStringObject(string $value): Domain\Models\StringObject
     {
