@@ -30,6 +30,7 @@
   },
   "autoload": {
     "files": [
+      "fn/getArrayFromMapping.php",
       "fn/getCurrentTime.php",
       "fn/getNewUuid.php",
       "fn/getNewMessage.php",
